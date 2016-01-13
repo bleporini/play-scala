@@ -1,0 +1,6 @@
+play-scala:
+  build: .
+  ports:
+    - 9000:9000
+  user: "10001"
+
