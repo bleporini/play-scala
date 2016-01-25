@@ -6,7 +6,7 @@ import play.api.mvc._
 class Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index("Your new application is ready. 3 to test build deploy"))
+    Ok(views.html.index("Your new application is ready. 3 to test build deploy new"))
   }
 
 }
