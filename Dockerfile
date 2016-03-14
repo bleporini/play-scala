@@ -3,7 +3,7 @@ FROM java:openjdk-8u72-jdk
 ENV SBT_VERSION=0.13.9 \
     SBT_SHA1="879ee72d049f1718a29551f55590aa94972f4c96" \
     SBT_HOME=/opt/sbt \
-    PATH=${PATH}:/opt/sbt/bin
+    PATH=${PATH}:/opt/sbt/bin \
     INVALIDATE_CACHE=true
 
 # Download and unarchive SBT
